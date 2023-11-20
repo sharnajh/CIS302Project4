@@ -1,14 +1,14 @@
 :root {
 	--cell-size: 100px;
 
-	--color: white; /* for hover */
+	--color: lightblue; /* for hover */
 	--color-set: #f54275; /* when set */
 	--l: 10px; /* X line-width */
 }
 
 body {
 	margin: 0;
-    background-image: url(https://i.pinimg.com/originals/0b/6d/83/0b6d83022b5326ca71c715e7c1743dfb.jpg);
+    /* background-image: url(https://i.pinimg.com/originals/0b/6d/83/0b6d83022b5326ca71c715e7c1743dfb.jpg); */
 }
 
 .board {
@@ -25,7 +25,7 @@ body {
 .cell {
 	width: var(--cell-size);
 	height: var(--cell-size);
-	border: 1px solid white;
+	border: 1px solid black;
 	display: flex;
 	justify-content: center;
 	align-items: center;
